@@ -164,7 +164,7 @@ JSON Server запустит локальный API. Порт и адрес се
 
 ## 🔗 Live Demo
 
-[InternFlow — Visit Website](<[PROJECT_URL](https://intern-flow-silk.vercel.app/)>)
+[InternFlow — Visit Website](<https://intern-flow-silk.vercel.app/>)
 
 ---
 
