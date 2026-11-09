@@ -1,0 +1,327 @@
+{
+  "company": [
+    {
+      "id": "7cea",
+      "hr": {
+        "role": "hr",
+        "name": "Demo HR 1",
+        "email": "hr1@example.com",
+        "password": "DemoOnly-NotARealSecret",
+        "confirm_password": "DemoOnly-NotARealSecret",
+        "statistic": {
+          "tasksCompleted": 5,
+          "openTasks": 15
+        },
+        "birthday": "01.01.2000",
+        "image": "",
+        "company": "Example Company"
+      },
+      "supervisor": [
+        {
+          "id": "1750693625360",
+          "email": "supervisor1-1@example.com",
+          "code": "000000",
+          "departament": "DEMO",
+          "name": "Demo Supervisor 1",
+          "birthday": "01.01.2000",
+          "image": ""
+        },
+        {
+          "id": "1750693876558",
+          "email": "supervisor1-2@example.com",
+          "code": "000000",
+          "departament": "DEMO",
+          "name": "Demo Supervisor 2",
+          "birthday": "01.01.2000",
+          "image": ""
+        },
+        {
+          "id": "1750803126716",
+          "email": "supervisor1-3@example.com",
+          "code": "000000",
+          "departament": "DEMO"
+        }
+      ],
+      "interns": [
+        {
+          "id": "1749416091423",
+          "email": "intern1-1@example.com",
+          "code": "000000",
+          "departament": "DEMO",
+          "tasks": [
+            {
+              "id": "1750158997999",
+              "url": "yghujikolp",
+              "mark": "5",
+              "status": "close"
+            },
+            {
+              "id": "1750170568468",
+              "url": "",
+              "mark": "4",
+              "status": "open"
+            },
+            {
+              "id": "1750354716856",
+              "url": "",
+              "mark": "3",
+              "status": "open"
+            }
+          ],
+          "progress": {},
+          "workTask": {
+            "id": "1750170568468",
+            "url": "",
+            "mark": null,
+            "status": "open"
+          },
+          "recomeLetter": "",
+          "name": "Demo Intern 1",
+          "birthday": "01.01.2000",
+          "image": ""
+        },
+        {
+          "id": "1750803075339",
+          "email": "intern1-2@example.com",
+          "code": "000000",
+          "departament": "DEMO",
+          "tasks": [],
+          "workTask": [],
+          "progress": {},
+          "recomeLetter": ""
+        }
+      ],
+      "tasks": [
+        {
+          "name": "пельмени",
+          "desc": "игргтоьлбдю.",
+          "done_desc": "нпргошлщ",
+          "dedline": "пнртоьлбдю",
+          "id": "1750158997999",
+          "tegnologies": [
+            "СЫЫ"
+          ],
+          "steps": [
+            {
+              "is_done": true,
+              "step_text": "рниголшщдзж"
+            }
+          ],
+          "links": [
+            "ипртоьлбдюж",
+            "рнгошлщдзж"
+          ],
+          "status": "close",
+          "departament": "DEMO",
+          "url": "tgfyhujikol",
+          "whoDone": "1749416091423",
+          "mark": ""
+        },
+        {
+          "name": "чукча",
+          "desc": "uijkol",
+          "done_desc": "После выполнения задания форма должна валидировать данные, отправлять их на сервер и отображать соответствующее сообщение пользователю. Код должен быть чистым и хорошо структурированным.",
+          "dedline": "01.06.25",
+          "id": "1750170568468",
+          "tegnologies": [
+            "JS"
+          ],
+          "steps": [
+            {
+              "is_done": false,
+              "step_text": "ijokolp;"
+            }
+          ],
+          "links": [
+            "ujikolp;["
+          ],
+          "status": "open",
+          "departament": "DEMO"
+        },
+        {
+          "name": "React",
+          "desc": "testtesttestttesttestetse",
+          "done_desc": "После выполнения задания форма должна валидировать данные, отправлять их на сервер и отображать соответствующее сообщение пользователю. Код должен быть чистым и хорошо структурированным.",
+          "dedline": "01.06.25",
+          "id": "1750354716856",
+          "tegnologies": [
+            "HTML"
+          ],
+          "steps": [
+            {
+              "is_done": true,
+              "step_text": "создать документ"
+            },
+            {
+              "is_done": true,
+              "step_text": "создать файлы"
+            }
+          ],
+          "links": [
+            "пегнрошлщд",
+            "еапнргошлщздж"
+          ],
+          "status": "open",
+          "departament": "DEMO"
+        }
+      ]
+    },
+    {
+      "id": "03a5",
+      "hr": {
+        "role": "hr",
+        "name": "Demo HR 2",
+        "email": "hr2@example.com",
+        "password": "DemoOnly-NotARealSecret",
+        "confirm_password": "DemoOnly-NotARealSecret"
+      },
+      "supervisor": [],
+      "interns": []
+    },
+    {
+      "id": "1111",
+      "hr": {
+        "role": "hr",
+        "name": "Demo HR 3",
+        "email": "hr3@example.com",
+        "password": "DemoOnly-NotARealSecret",
+        "confirm_password": "DemoOnly-NotARealSecret"
+      },
+      "supervisor": [
+        {
+          "id": "1750610668543",
+          "email": "supervisor3-1@example.com",
+          "code": "000000",
+          "departament": "DEMO"
+        }
+      ],
+      "interns": [
+        {
+          "id": "1750611439340",
+          "email": "intern3-1@example.com",
+          "code": "000000",
+          "departament": "DEMO",
+          "tasks": [
+            {
+              "id": "1750611296385",
+              "url": "drtxdcfvgbhnujm",
+              "mark": "5",
+              "status": "close"
+            },
+            {
+              "id": "1750618544851",
+              "url": "fr6tgyhujikolp;",
+              "mark": "5",
+              "status": "close"
+            },
+            {
+              "id": "1750619199494",
+              "url": "FRTGYUHJIKOL",
+              "mark": "3",
+              "status": "close"
+            }
+          ],
+          "workTask": null,
+          "progress": {},
+          "recomeLetter": ""
+        }
+      ],
+      "tasks": [
+        {
+          "name": "TEST",
+          "desc": "TEST",
+          "done_desc": "TEST",
+          "dedline": "00.00.0000",
+          "id": "1750611296385",
+          "tegnologies": [
+            "TEST"
+          ],
+          "steps": [
+            {
+              "is_done": true,
+              "step_text": "TEST"
+            }
+          ],
+          "links": [
+            "TEST"
+          ],
+          "status": "close",
+          "departament": "DEMO",
+          "url": "drtxdcfvgbhnujm",
+          "whoDone": "1750611439340"
+        },
+        {
+          "name": "TEST2",
+          "desc": "TEST2",
+          "done_desc": "TEST2",
+          "dedline": "11.11.1111",
+          "id": "1750618544851",
+          "tegnologies": [
+            "TEST"
+          ],
+          "steps": [
+            {
+              "is_done": true,
+              "step_text": "TEST2"
+            }
+          ],
+          "links": [
+            "TEST2"
+          ],
+          "status": "close",
+          "departament": "DEMO",
+          "url": "tgyhujikol",
+          "whoDone": "1750611439340"
+        },
+        {
+          "name": "TEST3",
+          "desc": "TEST3",
+          "done_desc": "TEST3",
+          "dedline": "22.22.2222",
+          "id": "1750619199494",
+          "tegnologies": [
+            "TEST"
+          ],
+          "steps": [
+            {
+              "is_done": true,
+              "step_text": "TEST3"
+            }
+          ],
+          "links": [
+            "TEST3"
+          ],
+          "status": "close",
+          "departament": "DEMO",
+          "url": "FRTGYUHJIKOL",
+          "whoDone": "1750611439340"
+        },
+        {
+          "name": "TEST4",
+          "desc": "TEST4",
+          "done_desc": "TEST",
+          "dedline": "33.33.3333",
+          "id": "1750621216485",
+          "tegnologies": [
+            "TEST"
+          ],
+          "steps": [
+            {
+              "is_done": false,
+              "step_text": "TEST4"
+            }
+          ],
+          "links": [
+            "TEST4"
+          ],
+          "status": "open",
+          "departament": "DEMO"
+        }
+      ]
+    }
+  ],
+  "admin": {
+    "email": "admin@example.com",
+    "password": "DemoOnly-NotARealSecret"
+  }
+}

@@ -1,0 +1,26 @@
+#root {}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 100vw;
+  padding-left: 377px;
+  padding-right: 100px;
+  padding-block: 40px;
+}
+
+.spinner-wrap {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-text {
+  color: var(--red);
+  margin-block: 10px;
+}

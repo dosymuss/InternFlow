@@ -1,0 +1,16 @@
+.pin-inp{
+    border: 2px solid #a3b18a;
+    border-radius: 10px;
+    width: 50px !important;
+    height: 50px;
+}
+
+.pin-inp-wrap{
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.pin-inp-text{
+    margin-bottom: 8px;
+}
